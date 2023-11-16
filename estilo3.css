@@ -1,0 +1,185 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #232323;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f1e7f1;
+  }
+  
+  /* Estilos del encabezado */
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #790d83;
+  }
+  
+  header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+  }
+  
+  nav a:hover {
+    background-color: #8a1984;
+  }
+  
+  /* Estilos de los botones */
+  
+  button {
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7c1d6c;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #53104e;
+  }
+  
+  /* Estilos de las secciones */
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin: 20px;
+    flex-basis: 30%;
+    min-width: 200px;
+  }
+  
+  section li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  section li img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  section p {
+    margin-top: 10px;
+  }
+  
+  /* Estilos del formulario */
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  button[type="submit"] {
+    align-self: flex-end;
+  }
+  
+  /* Estilos del pie de página */
+  
+  footer {
+    padding: 20px;
+    background-color: #681c5b;
+    text-align: center;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-media img:hover {
+    transform: scale(1.2);
+  }
+  @media only screen and (max-width: 600px) {
+    /* Reglas de estilo para pantallas de hasta 600 píxeles de ancho */
+  }
+  

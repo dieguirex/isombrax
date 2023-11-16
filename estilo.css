@@ -1,0 +1,74 @@
+/* Estilo para el perfil gamer inspirado en Valorant */
+
+body {
+    background-color: #1b1e22;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-top: 30px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #7a176d;
+    box-shadow: 0px 0px 10px #940b5b;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #f1690f;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0f5ef1;
+  }
+  
